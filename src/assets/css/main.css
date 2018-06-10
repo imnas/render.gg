@@ -75,13 +75,17 @@
 .showReelContainer {
   min-height: 600px;
   width: 100%;
-  background:#fff;
+  background: #ffff;
   border-radius:2px;
   flex:1;
 }
+
+.video-react-control-bar {
+  display: none !important;
+}
+
 .heroContainer {
   background: #000019;
-  color: #fff;
   padding: 75px;
   padding-top: 0px;
   display: flex;

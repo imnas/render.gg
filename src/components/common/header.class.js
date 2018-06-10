@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { Player } from 'video-react';
 import logo from '../../assets/media/logo.png';
 
 class Header extends Component {
@@ -32,7 +33,15 @@ class Header extends Component {
         </div>
         <div className="heroContainer">
             <div className="showReelContainer">
-              
+              <Player id="Player"
+                PlaysInLine
+                muted
+                autoPlay
+                loop
+                fluid={true}
+                aspectRatio="16:9"
+                src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4"
+              />
             </div>
         </div>
       </div>
