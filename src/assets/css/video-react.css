@@ -142,7 +142,7 @@
   vertical-align: top;
   box-sizing: border-box;
   color: #fff;
-  background-color: hsla(220, 32%, 8%, 1);
+  background-color: #000019;
   border-radius:4px;
   position: relative;
   font-size: 10px;
@@ -173,7 +173,10 @@
   .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
     width: 100%;
     max-width: 100%;
-    height: 0; }
+    height: 0;
+  padding:unset !important;
+
+flex:1;}
   .video-react.video-react-16-9 {
     padding-top: 56.25%; }
   .video-react.video-react-4-3 {
@@ -183,10 +186,17 @@
     height: 100%; }
   .video-react .video-react-video {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
+    right: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    height: unset !important;
+    min-height: 100vh;
+    top: -10vh !important;
+    min-width: 1500px;
+    margin: auto !important;
+ }
   .video-react.video-react-fullscreen {
     width: 100% !important;
     height: 100% !important;
