@@ -231,6 +231,13 @@
   justify-content: center;
 }
 
+.ctaContainer a:hover {
+  background: #f36925;
+  color: #f8f7f8;
+  transition: color 0.3s ease;
+  transition: background 0.5s ease;
+}
+
 .navLeft a ion-icon {
   margin-right: 5px;
 }
@@ -246,6 +253,10 @@
 }
 .quoteBtn {
   color: #f15a24;
+}
+.quoteBtn:hover{
+  color: #f8f7f8;
+  transition: color 0.3s ease;
 }
 .circleNav a:not(:last-child) {
   margin-bottom: 10px;
@@ -286,6 +297,29 @@
   justify-content: center;
 }
 
+.footer-icon {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.footer-icon:hover {
+  color: #f36925;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #f36925;
+  transition: color 0.3s ease;
+}
+
+.hero-subtitle {
+  font-size: 3rem;
+}
+
+.navLink:hover {
+  color: #f36925;
+  transition: color 0.3s ease;
+}
 
 
 

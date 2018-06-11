@@ -17,9 +17,9 @@ class Header extends Component {
         <div className="heroTopContainer">
             <nav className="topNav">
                 <div className="navLeft">
-                    <NavLink to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
-                    <NavLink to="/" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
-                    <NavLink to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
+                    <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
+                    <NavLink className="navLink" to="/" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                    <NavLink  to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
                 </div>
                 <div className="navMid">
                     <NavLink to="/" exact><img src={logo}/></NavLink>

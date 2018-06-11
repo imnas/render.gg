@@ -15,17 +15,17 @@ class Footer extends Component {
         <div className="footerSub">
         <div>
             <div>
-            <NavLink to="/"><ion-icon name="pricetag"></ion-icon> Products</NavLink>
-            <NavLink to="/"><ion-icon name="information-circle"></ion-icon> About</NavLink>
-            <NavLink to="/"><ion-icon name="help-buoy"></ion-icon> Contact</NavLink>
+            <NavLink className="footer-link" to="/"><ion-icon name="pricetag"></ion-icon> Products</NavLink>
+            <NavLink className="footer-link" to="/"><ion-icon name="information-circle"></ion-icon> About</NavLink>
+            <NavLink className="footer-link" to="/"><ion-icon name="help-buoy"></ion-icon> Contact</NavLink>
             </div>
         </div>
         <div>
-            <div>
-            <a href="/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-            </div>
+            <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <div>
             <div>
             &copy; 2018 RENDER.GG
             </div>
