@@ -81,7 +81,8 @@
   flex: 1 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
+  position:relative;
 }
 
 .video-react-control-bar {
@@ -122,6 +123,8 @@
 }
 .navLeft {
   font-size: 14px;
+  display:flex;
+  flex-direction:row;
 }
 .mainAppContainer {
   display: -ms-flexbox;
@@ -148,18 +151,139 @@
 .commonPageContainer section:first-child {
     border-top:unset !important;
 }
+.overlayScreenHome {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: #000019e0;
+  border: 3px solid #f15a24;
+  border-radius: 0px;
+  overflow:hidden;
+}
+.overlayVid {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: #000019e0;
+}
+.heroCtaContainer {
+  position:relative;
+  z-index:2;
+}
+.heroCtaContainer {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  padding: 75px;
+  top: 0vh;
+  height: 100%;
+  flex-direction: row;
+}
+.heroLeft {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:Center;
+}
+.actualHeroItemContainer h1 {
+  margin: unset;
+}
+.ctaContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.actualHeroItemContainer h4 strong {
+  color: #f36925;
+}
+.actualHeroItemContainer h4 {
+  font-size: 55px;
+  margin: unset;
+  margin-top: 5px;
+}
+.actualHeroItemContainer h1 {
+  margin: unset;
+  font-size: 20px;
+}
+.ctaContainer a {
+  background: #f8f7f8;
+  padding: 15px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #f36925;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.navLeft a ion-icon {
+  margin-right: 5px;
+}
 
+.navLeft a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ctaContainer a ion-icon {
+  margin-right: 5px;
+}
+.quoteBtn {
+  color: #f15a24;
+}
+.circleNav a:not(:last-child) {
+  margin-bottom: 10px;
+}
+.circleNav {
+  position: absolute;
+  z-index: 10;
+  margin: auto;
+  /* left: 0; */
+  right: -50px;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circleNav a {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #ffffff0d;
+}
+.circleNav a.active {
+  border: 4px solid #b7b7b7;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+}
+.topNavRightSub a ion-icon {
+  margin-right: 5px;
+}
 
-
-
-
-
-
-
-
-
-
+.topNavRightSub a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
