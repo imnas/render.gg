@@ -32,6 +32,12 @@ class Landing extends Component {
                 <h2>Who do we serve?</h2>
                 <h4>Below are some of our more established <strong>clients</strong></h4>
               </div>
+              <div className="singleServiceContainer">
+                <a className="serviceIcon">
+                  <ion-icon name="finger-print"/>
+                </a>
+                <h1 className="serviceTitle">Video Production</h1>
+              </div>
               <div className="singleSectionContainer">
 
               </div>

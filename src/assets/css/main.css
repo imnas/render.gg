@@ -253,13 +253,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.3s ease-in-out;
+  transition: background 0.5s ease-in-out;
 }
 
 .ctaContainer a:hover {
   background: #f8f7f8;
   color: #f36925;
-  transition: color 0.3s ease;
-  transition: background 0.5s ease;
+  transition: color 0.3s ease-in-out;
+  transition: background 0.5s ease-in-out;
 }
 .navRight {
     min-width: 251px;
@@ -280,10 +282,11 @@
 }
 .quoteBtn {
   color: #f15a24;
+  transition: color 0.3s ease-in-out;
 }
 .quoteBtn:hover{
   color: #f8f7f8;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 .circleNav a:not(:last-child) {
   margin-bottom: 10px;
@@ -335,6 +338,7 @@
 .footer-icon {
   font-size: 20px;
   padding-left: 10px;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer-icon:hover {
@@ -351,9 +355,13 @@
   font-size: 3rem;
 }
 
+.navLink {
+  transition: color 0.3s ease-in-out;
+}
+
 .navLink:hover {
   color: #f36925;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 .curvedHeaderFlow span {
   height: 70px;
@@ -434,7 +442,25 @@
   font-weight: 200;
   color: #f36925;
 }
-
+.singleServiceContainer {
+  height: 325px;
+  width: 200px;;
+  background-color: #f36925;
+  padding: 25px 10px 10px 10px;
+}
+.serviceIcon {
+  color: #f8f7f8;
+  font-size: 3.5rem;
+  position: relative;
+  right: 0;
+  left: 33%;
+}
+.serviceTitle {
+  text-align: center;
+  position: relative;
+  color: #f8f7f8;
+  font-weight: 600;
+}
 
 
 
