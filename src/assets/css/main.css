@@ -237,7 +237,11 @@
   transition: color 0.3s ease;
   transition: background 0.5s ease;
 }
-
+.navRight {
+    min-width: 251px;
+    display: flex;
+    justify-content: flex-end;
+}
 .navLeft a ion-icon {
   margin-right: 5px;
 }
