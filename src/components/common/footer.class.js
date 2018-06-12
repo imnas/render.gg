@@ -15,9 +15,9 @@ class Footer extends Component {
         <div className="footerSub">
         <div>
             <div>
-            <NavLink className="footer-link" to="/"><ion-icon name="pricetag"></ion-icon> Products</NavLink>
-            <NavLink className="footer-link" to="/"><ion-icon name="information-circle"></ion-icon> About</NavLink>
-            <NavLink className="footer-link" to="/"><ion-icon name="help-buoy"></ion-icon> Contact</NavLink>
+            <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
+                    <NavLink className="navLink" to="/" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                    <NavLink  to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
             </div>
         </div>
         <div>
@@ -27,7 +27,7 @@ class Footer extends Component {
         </div>
         <div>
             <div>
-            &copy; 2018 RENDER.GG
+            &copy; 2018 Render.gg
             </div>
             {/* <div>
             powered by

@@ -12,10 +12,14 @@ class Landing extends Component {
   render() {
     return (
       <div className="commonPageContainer">
+          <div className="curvedHeaderFlow">
+            <span></span>
+          </div>
           <section>
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
-                <h4>Example Section</h4>
+                <h2>Who are we?</h2>
+                <h4>We’re <strong>Render</strong>. A premium YouTube video production service for the gaming world</h4>
               </div>
               <div className="singleSectionContainer">
 
@@ -25,7 +29,8 @@ class Landing extends Component {
           <section>
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
-                <h4>Example Section</h4>
+                <h2>Who do we serve?</h2>
+                <h4>Below are some of our more established <strong>clients</strong></h4>
               </div>
               <div className="singleSectionContainer">
 
@@ -35,7 +40,8 @@ class Landing extends Component {
           <section>
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
-                <h4>Example Section</h4>
+                <h2>What do you do?</h2>
+                <h4>See some of our <strong>recent work</strong> below</h4>
               </div>
               <div className="singleSectionContainer">
 

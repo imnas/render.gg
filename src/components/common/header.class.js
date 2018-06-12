@@ -14,6 +14,7 @@ class Header extends Component {
   render() {
     return (
       <div className="headerFlexContainer">
+        <span className="glareHeader"></span>
         <div className="heroTopContainer">
             <nav className="topNav">
                 <div className="navLeft">
