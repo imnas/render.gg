@@ -53,7 +53,7 @@ class Header extends Component {
               <div className="heroCtaContainer">
                 <div className="heroLeft">
                   <div className="actualHeroItemContainer">
-                    <h1>RENDER.GG</h1>
+                    {/* <h1>RENDER.GG</h1> */}
                     <h4>We Are <strong>Render</strong></h4>
                     <div className="ctaContainer">
                       <NavLink to="/products"><ion-icon name="videocam"></ion-icon> SHOWREEL</NavLink>
