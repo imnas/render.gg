@@ -175,21 +175,19 @@
     border-top:unset !important;
 }
 .overlayScreenHome {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  background: #000019e0;
-  border: 25px solid #ffffff;
-  border-right: unset;
-  border-bottom: unset;
-  border-radius: 2px;
-  z-index:2;
-  overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: #000019e0;
+    border: 4px solid #f36925;
+    border-radius: 2px;
+    z-index: 2;
+    overflow: hidden;
 }
 .overlayVid {
   position: absolute;
