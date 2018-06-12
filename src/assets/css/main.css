@@ -454,12 +454,13 @@
   position: relative;
   right: 0;
   left: 33%;
+  cursor: default;
 }
 .serviceTitle {
   text-align: center;
   position: relative;
   color: #f8f7f8;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
