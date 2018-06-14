@@ -34,6 +34,7 @@ class Header extends Component {
         </div>
         <div className="heroContainer">
             <div className="showReelContainer">
+              <span className="overlayVid"></span>
               <div className="circleNav">
                 <a className="active"></a>
                 <a></a>
@@ -49,7 +50,6 @@ class Header extends Component {
                 aspectRatio="16:9"
                 src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4"
                 />
-                <span className="overlayVid"></span>
               </span>
               <div className="heroCtaContainer">
                 <div className="heroLeft">

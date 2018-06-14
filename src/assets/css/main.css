@@ -45,8 +45,8 @@
     font-family: 'GothamPro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background:#fff;
-    color:#000019;
+    background:#000019;
+    color:#ffffff;
     }
     .topNav {
       display: flex;
@@ -65,7 +65,7 @@
     overflow:hidden;
 }
 .navMid img {
-  width: 60px;
+  width: 53px;
 }.heroTopContainer {
   padding-left: 75px;
   padding-right: 75px;
@@ -115,8 +115,9 @@
   padding-right: 75px;
   padding-top: 45px;
   padding-bottom: 45px;
-  background: #000019;
-  color: #fff;
+  background: #ffffff;
+  color: #000019;
+  -ms-flex-align: center;
   align-items: center;
 }
 .footerSub > div {
@@ -131,7 +132,7 @@
   align-items: center;
 }
 .footerSub > div:nth-child(2) a:first-child {
-  margin-left:0px;
+  padding-left: 0px;
 }
 .topNavRightSub {
   font-size: 14px;
@@ -167,12 +168,13 @@
     justify-content: space-between;
     padding-left: 75px;
     padding-right: 75px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     /* border-top: 2px solid #f7f7f7; */
 }
 .commonPageContainer section:first-child {
     border-top:unset !important;
+    padding-top:50px;
 }
 .overlayScreenHome {
     position: absolute;
@@ -184,7 +186,7 @@
     width: 100%;
     height: 100%;
     background: #000019e0;
-    border: 4px solid #f36925;
+    border: 2px solid #f36925;
     border-radius: 2px;
     z-index: 2;
     overflow: hidden;
@@ -196,18 +198,15 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
   background: #000019e0;
-  z-index:10;
-}
-.heroCtaContainer {
-  position:relative;
-  z-index:2;
+  border-radius: 0px;
+  z-index: 10;
 }
 .heroCtaContainer {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   display: flex;
   width: 100%;
   padding: 75px;
@@ -232,11 +231,13 @@
 }
 .actualHeroItemContainer h4 strong {
   color: #f36925;
+  font-weight: 600;
 }
 .actualHeroItemContainer h4 {
   font-size: 42px;
   margin: unset;
-  margin-top:0px;
+  margin-top: 0px;
+  font-weight: 600;
 }
 .actualHeroItemContainer h1 {
   margin: unset;
@@ -376,12 +377,15 @@
   overflow: hidden;
   margin-top: -30px;
 }
+/* .commonPageContainer section {
+  border-bottom: 2px solid #03031d;
+} */
 .commonPageContainer section:nth-child(2) {
   border-top:0px !important;
 }
-.commonPageContainer section:nth-child(odd) {
+/* .commonPageContainer section:nth-child(odd) {
   background: #f8f8fd;
-}
+} */
 .footerSub > div:first-child a {
   display:flex;
   flex-direction:row;
@@ -400,18 +404,18 @@
   justify-content: flex-end;
 }
 .sectionHeaderHome h2:before {
-  height: 8px;
-  background: #000019;
+  height: 3px;
+  background: #f36925;
   width: 40px;
   display: block;
   content: "";
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   border-radius: 2px;
 }
 .sectionHeaderHome h2:after {
-  height: 8px;
-  background: #f36925;
+  height: 3px;
+  background: #ffffff;
   width: 8px;
   display: block;
   content: "";
@@ -428,16 +432,16 @@
   font-size: 21px;
   font-weight: 400;
   text-transform: capitalize;
-  color: #000019;
+  color: #ffffff;
   position: relative;
 }
 .sectionHeaderHome h4 {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   /* max-width: 250px; */
   margin: 0 auto;
-  margin-top: 10px;
-  color: #7c7c9c;
+  margin-top: 25px;
+  color: #ffffff;
 }
 .sectionHeaderHome h4 strong {
   font-weight: 200;
@@ -463,6 +467,156 @@
   color: #f8f7f8;
   font-weight: 500;
 }
+.footerSub > div:nth-child(2) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trippleStatsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 25px;
+  margin-top: 100px;
+}
+.trippleStatsContainer > div h2 {
+  margin: unset;
+  font-size: 44px;
+  color: #f36925;
+}
+.trippleStatsContainer > div p {
+  margin: unset;
+  margin-top: 0px;
+  font-size: 14px;
+  margin-left: 25px;
+  font-weight: 600;
+}
+.trippleStatsContainer > div {
+  /* border: 4px solid #ffffff; */
+  border-radius: 2px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientProfile > div img {
+  border-radius: 2px 2px 0px 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 227px;
+}
+.clientProfile > div:first-child > div {
+  position: absolute;
+  bottom: 0px;
+  display: -ms-flexbox;
+  display: flex;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.clientProfile > div:first-child h4 {
+  position: relative;
+  z-index: 10;
+}
+.frontTintP {
+  position: absolute;
+  background: #00001996;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px 2px 0px 0px;
+}
+.clientProfile {
+  position: relative;
+}
+.clientProfile > div {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.clientSocials a {
+  padding: unset;
+  margin: unset;
+  display: flex;
+  align-items: center;
+}
+
+.clientSocials {
+  padding: 25px;
+  background: #f36925;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 2px 2px;
+}
+.clientStats {
+  position: relative;
+  background: #fff;
+  color: #000019;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+}
+.clientStats ion-icon {
+  position: absolute;
+  font-size: 200px;
+  right: -50px;
+  top: 3px;
+  color: #000008;
+}
+.clientStats h4 {
+  margin: unset;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #f36925;
+}
+.clientStats p {
+  margin: unset;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #f36925;
+  font-weight: bold;
+}
+.establishedClientsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 25px;
+  margin-top:100px;
+}
+.clientStats ion-icon {
+  position: absolute;
+  font-size: 62px;
+  right: 0;
+  color: #f3692514;
+  left: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientStats > div:first-child {
+  position: relative;
+  z-index: 10;
+}
+hr {
+  max-width: 800px;
+  height: 4px;
+  background: #1f0e1bc9;
+  outline: unset;
+  border: none;
+  border-radius: 100%;
+}
+
 
 
 
