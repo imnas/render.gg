@@ -167,10 +167,31 @@ class Landing extends Component {
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
                 <h2>What do you do?</h2>
-                <h4>See some of our <strong>recent work</strong> below</h4>
+                <h4>See some of our <strong>strengths</strong> below</h4>
               </div>
               <div className="singleSectionContainer">
-
+                <div className="quadFeatures">
+                  <div>
+                    <ion-icon name="videocam"></ion-icon>
+                    <h4>Video Production</h4>
+                    <p>We provide professional video editing of stream highlights, sponsored content, montages and more. Each video is guaranteed to be full to the brim with memes to keep your audience PogChamping.</p>
+                  </div>
+                  <div>
+                    <ion-icon name="images"></ion-icon>
+                    <h4>Thumbnail Design</h4>
+                    <p>We have dedicated designers in Render that have experience making hundreds of thumbnails. We guarantee your video will be very enticing to click on, which will give you more views and increase the channel revenue.</p>
+                  </div>
+                  <div>
+                    <ion-icon name="cloud-upload"></ion-icon>
+                    <h4>Upload Scheduling</h4>
+                    <p>All of the channels we work on have a scheduled upload system at least a day in advance, so we're always ahead of the work. This means no last minute panicking to upload a video and your video always goes live on time.</p>
+                  </div>
+                  <div>
+                    <ion-icon name="trending-up"></ion-icon>
+                    <h4>Increased Revenue</h4>
+                    <p>Longer videos, frequent uploads and strategically placed ads are only 3 of the ways we will help your channel revenue grow. Our team have years of experience and know the YouTube algorithm inside out.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
