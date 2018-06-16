@@ -15,7 +15,7 @@ class Landing extends Component {
           {/* <div className="curvedHeaderFlow">
             <span></span>
           </div> */}
-          <section>
+          <section id="section1">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
                 <h2>Who are we?</h2>
@@ -40,7 +40,7 @@ class Landing extends Component {
             </div>
           </section>
           <hr/>
-          <section>
+          <section id="section2">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
                 <h2>Who do we serve?</h2>
@@ -163,13 +163,14 @@ class Landing extends Component {
             </div>
           </section>
           <hr/>
-          <section>
+          <section id="section3">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
                 <h2>What do you do?</h2>
                 <h4>See some of our <strong>strengths</strong> below</h4>
               </div>
               <div className="singleSectionContainer">
+                <p className="pRender">Render is a professional online video production studio, comprised of the industries most valued and experienced video editors, content managers and graphic designers. We primarily work with established Twitch streamers and esports organisations on their YouTube channels. We offer professional video editing, consistently planned uploads, a guaranteed increase in ad-revenue and most of all, entertaining content that makes fans come back time and time again.</p>
                 <div className="quadFeatures">
                   <div>
                     <ion-icon name="videocam"></ion-icon>

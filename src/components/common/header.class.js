@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { NavHashLink } from 'react-router-hash-link';
 import { Scrollbars } from 'react-custom-scrollbars';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Redirect } from 'react-router-dom';
 import { Player } from 'video-react';
 import logo from '../../assets/media/logo.png';
 
@@ -11,9 +12,20 @@ class Header extends Component {
 
     };
   }
+
+
   render() {
+    const scrollWithOffset = (el, offset) => {
+      const elementPosition = el.offsetTop - offset;
+      window.scroll({
+        top: elementPosition,
+        left: 0,
+        behavior: "smooth"
+      }); 
+    }
+    const location = window.location.hash
     return (
-      <div className="headerFlexContainer">
+      <div className="headerFlexContainer"  id="section0">
         {/* <span className="glareHeader"></span> */}
         <div className="heroTopContainer">
             <nav className="topNav">
@@ -36,9 +48,10 @@ class Header extends Component {
             <div className="showReelContainer">
               <span className="overlayVid"></span>
               <div className="circleNav">
-                <a className="active"></a>
-                <a></a>
-                <a></a>
+                <NavHashLink className={location == ("") || location == ("#section0") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section0"></NavHashLink>
+                <NavHashLink className={location == ("#section1") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section1"></NavHashLink>
+                <NavHashLink className={location == ("#section2") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section2"></NavHashLink>
+                <NavHashLink className={location == ("#section3") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section3"></NavHashLink>
               </div>
               <span className="overlayScreenHome">
                 <Player id="Player"
@@ -57,7 +70,7 @@ class Header extends Component {
                     {/* <h1>RENDER.GG</h1> */}
                     <h4>We Are <strong>Render</strong></h4>
                     <div className="ctaContainer">
-                      <NavLink to="/products"><ion-icon name="videocam"></ion-icon> SHOWREEL</NavLink>
+                      <NavLink to="/products"><ion-icon name="videocam"></ion-icon> <span>SHOWREEL</span></NavLink>
                     </div>
                   </div>
                 </div>
