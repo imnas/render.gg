@@ -64,8 +64,16 @@
     position:relative;
     overflow:hidden;
 }
+.navMid {
+  width: 35px;
+  height: 35px;
+}
+.navMid svg {
+  width: 35px;
+  height: 35px;
+}
 .navMid img {
-  width: 53px;
+  width: 35px;
 }.heroTopContainer {
   padding-left: 75px;
   padding-right: 75px;
@@ -173,8 +181,9 @@
     /* border-top: 2px solid #f7f7f7; */
 }
 .commonPageContainer section:first-child {
-    border-top:unset !important;
-    padding-top:50px;
+  border-top: unset !important;
+  padding-top: 0px;
+  margin-top: 50px;
 }
 .overlayScreenHome {
     position: absolute;
@@ -678,8 +687,17 @@ hr {
   font-weight: 200;
   font-size: 14px;
 }
-
-
+.stickyNav {
+  background: white;
+  -webkit-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+  z-index: 1000;
+  color:#000019;
+}
+.stickyNav .cls-1 {
+  fill: #000019 !important;
+}
 
 
 

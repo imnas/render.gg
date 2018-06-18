@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
-import { Scrollbars } from 'react-custom-scrollbars';
+import CountUp from 'react-countup';
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Watch } from 'scrollmonitor-react';
 
-class Landing extends Component {
+export default Watch(class Landing extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      countup1 : <CountUp redraw={false} start={0} end={62} useEasing={true} />,
+      countup2: <CountUp className="account-balance" start={0} end={9.7} useEasing={true} decimals={1} suffix={"M"} />,
+      countup3: <CountUp start={0} end={15} useEasing={true} />
     };
+  }
+  componentDidMount() {
+
+  }
+  componentDidUpdate() {
+      if (this.props.isInViewport == false) {
+        this.state.countup1 = <CountUp redraw={false} start={0} end={63} useEasing={true} />;
+        this.state.countup2 = <CountUp className="account-balance" start={0} end={9.8} useEasing={true} decimals={1} suffix={"M"} />;
+        this.state.countup3 = <CountUp start={0} end={16} useEasing={true} />;
+    } 
   }
   render() {
     return (
@@ -15,31 +28,37 @@ class Landing extends Component {
           {/* <div className="curvedHeaderFlow">
             <span></span>
           </div> */}
-          <section id="section1">
-            <div className="sectionSubContainer">
-              <div className="sectionHeaderHome">
-                <h2>Who are we?</h2>
-                <h4>We’re <strong>Render</strong>. A premium YouTube video production service for the gaming world</h4>
-              </div>
-              <div className="singleSectionContainer">
-                <div className="trippleStatsContainer">
-                  <div>
-                    <h2>63</h2>
-                    <p>MONTHLY VIDEOS</p>
-                  </div>
-                  <div>
-                    <h2>9.8M</h2>
-                    <p>MONTHLY VIEWS</p>
-                  </div>
-                  <div>
-                    <h2>16</h2>
-                    <p>TALENTED EDITORS</p>
-                  </div>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
+            <section id="section1">
+              <div className="sectionSubContainer">
+                <div className="sectionHeaderHome">
+                  <h2>Who are we?</h2>
+                  <h4>We’re <strong>Render</strong>. A premium YouTube video production service for the gaming world</h4>
+                </div>
+                <div className="singleSectionContainer">
+                    <div className="trippleStatsContainer">
+                      <div>
+                        <h2>{this.state.countup1}</h2>
+                        <p>MONTHLY VIDEOS</p>
+                      </div>
+                      <div>
+                        <h2>{this.state.countup2}</h2>
+                        <p>MONTHLY VIEWS</p>
+                      </div>
+                      <div>
+                        <h2>{this.state.countup3}</h2>
+                        <p>TALENTED EDITORS</p>
+                      </div>
+                    </div>
+
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}> 
           <hr/>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
           <section id="section2">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
@@ -162,7 +181,11 @@ class Landing extends Component {
               </div>
             </div>
           </section>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
           <hr/>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
           <section id="section3">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
@@ -196,9 +219,8 @@ class Landing extends Component {
               </div>
             </div>
           </section>
+          </ScrollAnimation>
       </div>
     );
   }
-}
-
-export default Landing;
+});
