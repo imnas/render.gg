@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
+import { NavLink } from 'react-router-dom';
+import Sticky from 'react-sticky-el';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Watch } from 'scrollmonitor-react';
 
@@ -25,9 +27,9 @@ export default Watch(class Landing extends Component {
   render() {
     return (
       <div className="commonPageContainer">
-          {/* <div className="curvedHeaderFlow">
+          <div className="curvedHeaderFlow">
             <span></span>
-          </div> */}
+          </div>
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
             <section id="section1">
               <div className="sectionSubContainer">
@@ -77,10 +79,10 @@ export default Watch(class Landing extends Component {
                     </div>
                   <div className="clientStats">
                     <div>
-                      <h4>Youtube Subscribers</h4>
+                      <h4>Social Reach</h4>
                       <p>2,000,000 +</p>
                     </div>
-                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="contacts"></ion-icon>
                   </div>
                   <div className="clientSocials">
                     <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -99,10 +101,10 @@ export default Watch(class Landing extends Component {
                     </div>
                   <div className="clientStats">
                     <div>
-                      <h4>Youtube Subscribers</h4>
+                      <h4>Social Reach</h4>
                       <p>5,000,000 +</p>
                     </div>
-                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="contacts"></ion-icon>
                   </div>
                   <div className="clientSocials">
                     <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -121,10 +123,10 @@ export default Watch(class Landing extends Component {
                     </div>
                   <div className="clientStats">
                     <div>
-                      <h4>Youtube Subscribers</h4>
+                      <h4>Social Reach</h4>
                       <p>500,000 +</p>
                     </div>
-                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="contacts"></ion-icon>
                   </div>
                   <div className="clientSocials">
                     <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -143,10 +145,10 @@ export default Watch(class Landing extends Component {
                     </div>
                   <div className="clientStats">
                     <div>
-                      <h4>Youtube Subscribers</h4>
+                      <h4>Social Reach</h4>
                       <p>2,000,000 +</p>
                     </div>
-                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="contacts"></ion-icon>
                   </div>
                   <div className="clientSocials">
                     <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -165,10 +167,10 @@ export default Watch(class Landing extends Component {
                     </div>
                   <div className="clientStats">
                     <div>
-                      <h4>Youtube Subscribers</h4>
+                      <h4>Social Reach</h4>
                       <p>10,000,000 +</p>
                     </div>
-                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="contacts"></ion-icon>
                   </div>
                   <div className="clientSocials">
                     <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -215,6 +217,26 @@ export default Watch(class Landing extends Component {
                     <h4>Increased Revenue</h4>
                     <p>Longer videos, frequent uploads and strategically placed ads are only 3 of the ways we will help your channel revenue grow. Our team have years of experience and know the YouTube algorithm inside out.</p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
+          <section id="section4">
+            <div className="sectionSubContainer">
+              <div className="sectionHeaderHome">
+                <h2>Partners</h2>
+                <h4>Check out some of our <strong>partnerships</strong> below</h4>
+              </div>
+              <div className="singleSectionContainer">
+                <div className="partnerRibbon">
+                  <a><ion-icon name="logo-twitch"></ion-icon></a>
+                  <a><ion-icon name="logo-foursquare"></ion-icon></a>
+                  <a><ion-icon name="logo-github"></ion-icon></a>
+                  <a><ion-icon name="logo-steam"></ion-icon></a>
+                  <a><ion-icon name="logo-vimeo"></ion-icon></a>
+                  <a><ion-icon name="logo-slack"></ion-icon></a>
                 </div>
               </div>
             </div>

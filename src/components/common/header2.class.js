@@ -20,14 +20,12 @@ class Header extends Component {
           <Sticky stickyClassName={'stickyNav'}>
           <div className="heroTopContainer">
               <nav className="topNav">
-                  <ScrollAnimation animateIn="slideInLeft" offset={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navLeft">
                       <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
-                      <NavLink className="navLink" to="/" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                      <NavLink className="navLink" to="/profile/jay" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                      <NavLink className="navLink" to="/careers" exact><ion-icon name="code-working"></ion-icon> Careers</NavLink>
                       <NavLink  to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
                   </div>
-                  </ScrollAnimation>
-                  <ScrollAnimation animateIn="zoomIn" offset={0} delay={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navMid">
                       <NavLink to="/" exact>
                       {/* <img src={logo}/> */}
@@ -47,14 +45,11 @@ class Header extends Component {
                         </svg>
                       </NavLink>
                   </div>
-                  </ScrollAnimation>
-                  <ScrollAnimation animateIn="slideInRight" offset={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navRight">
                       <div className="topNavRightSub">
                           <a><ion-icon name="quote"></ion-icon> Slogan of the company.</a>
                       </div>
                   </div>
-                  </ScrollAnimation>
               </nav>
           </div>
           </Sticky>

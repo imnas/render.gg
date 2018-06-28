@@ -35,7 +35,8 @@ class Header extends Component {
                   <ScrollAnimation animateIn="slideInLeft" offset={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navLeft">
                       <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
-                      <NavLink className="navLink" to="/" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                      <NavLink className="navLink" to="/profile/jay" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                      <NavLink className="navLink" to="/careers" exact><ion-icon name="code-working"></ion-icon> Careers</NavLink>
                       <NavLink  to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
                   </div>
                   </ScrollAnimation>
@@ -71,12 +72,12 @@ class Header extends Component {
           </div>
           </Sticky>
           <div className="heroContainer">
-              <div className="circleNav">
+              {/* <div className="circleNav">
                 <NavHashLink className={location == ("") || location == ("#section0") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section0"></NavHashLink>
                 <NavHashLink className={location == ("#section1") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section1"></NavHashLink>
                 <NavHashLink className={location == ("#section2") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section2"></NavHashLink>
                 <NavHashLink className={location == ("#section3") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section3"></NavHashLink>
-              </div>
+              </div> */}
               <ScrollAnimation animateIn="zoomIn" className="showReelContainer" animateOnce={true}>
                 <span className="overlayVid"></span>
                 <span className="overlayScreenHome">

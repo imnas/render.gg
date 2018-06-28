@@ -54,7 +54,7 @@ export default class Landing extends Component {
                         loop
                         // fluid={true}
                         // aspectRatio="16:9"
-                        src={videop}
+                        src={"https://video.wixstatic.com/video/646904_e3f6ef16744046259bf0f6dcef61c8af/1080p/mp4/file.mp4"}
                         />
                         <span class="frontTintP2"></span>
                     </div>
