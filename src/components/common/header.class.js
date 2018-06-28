@@ -78,19 +78,6 @@ class Header extends Component {
                 <NavHashLink className={location == ("#section2") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section2"></NavHashLink>
                 <NavHashLink className={location == ("#section3") ? "active" : null }  scroll={el => scrollWithOffset(el, 0)} to="/#section3"></NavHashLink>
               </div> */}
-              <ScrollAnimation animateIn="zoomIn" className="showReelContainer" animateOnce={true}>
-                <span className="overlayVid"></span>
-                <span className="overlayScreenHome">
-                  <Player id="Player"
-                  PlaysInLine
-                  muted
-                  autoPlay
-                  loop
-                  fluid={true}
-                  aspectRatio="16:9"
-                  src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4"
-                  />
-                </span>
                 <div className="heroCtaContainer">
                   <div className="heroLeft">
                     <div className="actualHeroItemContainer">
@@ -105,6 +92,19 @@ class Header extends Component {
 
                   </div> */}
                 </div>
+              <ScrollAnimation animateIn="zoomIn" className="showReelContainer" animateOnce={true}>
+                {/* <span className="overlayVid"></span> */}
+                <span className="overlayScreenHome">
+                  <Player id="Player"
+                  PlaysInLine
+                  // muted
+                  // autoPlay
+                  // loop
+                  fluid={true}
+                  aspectRatio="16:9"
+                  src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4"
+                  />
+                </span>
               </ScrollAnimation>
           </div>
         </div>

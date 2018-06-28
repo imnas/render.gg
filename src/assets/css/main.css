@@ -60,7 +60,7 @@
     flex-direction: column;
     background:#000019;
     color:#fff;
-    /* min-height:100vh; */
+    min-height: 450px;
     position:relative;
     /* overflow:hidden; */
     /* padding-left:25px;
@@ -108,11 +108,11 @@
   -ms-flex-direction: column;
   flex-direction: column;
   position: absolute;
-  max-width: 1200px;
+  max-width: 665px;
   max-height: 500px;
-  height: 450px;
+  height: 375px;
   z-index: 100;
-  top: 28px;
+  top: 200px;
 }
 
 .video-react-control-bar {
@@ -269,6 +269,7 @@
   display: flex;
   width: 100%;
   padding: 75px;
+  padding-top:0px;
   top: 0vh;
   height: 100%;
   flex-direction: row;
@@ -277,7 +278,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align:Center;
 }
 .actualHeroItemContainer h1 {
@@ -293,10 +293,10 @@
   font-weight: 600;
 }
 .actualHeroItemContainer h4 {
-  font-size: 42px;
+  font-size: 35px;
   margin: unset;
   margin-top: 0px;
-  font-weight: 600;
+  font-weight: bold;
 }
 .actualHeroItemContainer h1 {
   margin: unset;
@@ -955,7 +955,7 @@ hr {
   height: 250px;
   margin-top:25px;
 }
-.vidCont .video-react .video-react-video {
+/* .vidCont .video-react .video-react-video {
   position: absolute;
   top: 0px;
   left: 0;
@@ -967,7 +967,7 @@ hr {
   top: -15vh !important;
   min-width: unset !important;
   margin: auto !important;
-}
+} */
 .careersBlockContainer > div h3 {
   margin: unset;
   font-size: 16px;
