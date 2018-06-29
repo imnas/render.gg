@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import { Player } from 'video-react';
 
 export default class Landing extends Component {
@@ -9,8 +10,27 @@ export default class Landing extends Component {
     };
   }
   render() {
+
+    const pageName = "Careers";
+    const pageDescription = "We are Render, a premium YouTube video production service for the gaming&amp;nbsp;world. ​ We specialize in video editing, motion graphics and channel branding.";
+
     return (
       <div className="commonPageMain">
+        <Helmet>
+            <title>Render - {pageName}</title>
+            <meta name="description" content={pageDescription} />
+            {/* Twitter Card Meta Tags */}
+            <meta name="twitter:site" content="@rendergg" />
+            <meta name="twitter:title" content={`Render - ${pageName}`} />
+            <meta name="twitter:description" content={pageDescription} />
+            {/* Open Graph Meta Tags */}
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={`Render - ${pageName}`} />
+            <meta property="og:description" content={pageDescription} />
+            <meta property="og:url" content={`https://render.gg/${pageName}`} />
+        </Helmet>
+
+
         <div className="careersPage">
             <section>
                 <div className="sectionHeaderHome">

@@ -8,11 +8,13 @@
     "react-countup": "^3.0.3",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.4.0",
+    "react-helmet": "^5.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-hash-link": "^1.2.0",
     "react-scripts": "1.1.4",
     "react-sticky": "^6.0.2",
+    "react-sticky-el": "^1.0.17",
     "redux": "^4.0.0",
     "scrollmonitor-react": "^2.4.0",
     "video-react": "^0.11.2"
