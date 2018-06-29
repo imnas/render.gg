@@ -60,7 +60,7 @@
     flex-direction: column;
     background:#000019;
     color:#fff;
-    min-height: 450px;
+    min-height: 410px;
     position:relative;
     /* overflow:hidden; */
     /* padding-left:25px;
@@ -110,9 +110,9 @@
   position: absolute;
   max-width: 665px;
   max-height: 500px;
-  height: 375px;
+  /* height: 375px; */
   z-index: 100;
-  top: 200px;
+  top: 125px;
 }
 
 .video-react-control-bar {
@@ -236,7 +236,7 @@
   margin-top: 50px;
 }
 .overlayScreenHome {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 0;
     right: 0;
@@ -1053,6 +1053,39 @@ hr {
   grid-gap: 25px;
   margin-top: 50px;
 }
+.overlayScreenHome > video {
+  width: 100%;
+}
+#section1 {
+  padding-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

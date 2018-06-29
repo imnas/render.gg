@@ -83,9 +83,9 @@ class Header extends Component {
                     <div className="actualHeroItemContainer">
                       {/* <h1>RENDER.GG</h1> */}
                       <h4>We Are <strong>Render</strong></h4>
-                      <div className="ctaContainer">
+                      {/* <div className="ctaContainer">
                         <NavLink to="/products"><ion-icon name="videocam"></ion-icon> <span>SHOWREEL</span></NavLink>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   {/* <div>
@@ -95,15 +95,15 @@ class Header extends Component {
               <ScrollAnimation animateIn="zoomIn" className="showReelContainer" animateOnce={true}>
                 {/* <span className="overlayVid"></span> */}
                 <span className="overlayScreenHome">
-                  <Player id="Player"
+                  <video controls>
+                    <source src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4" type="video/mp4"/>
+                  </video>
+                  {/* <Player id="Player"
                   PlaysInLine
-                  // muted
-                  // autoPlay
-                  // loop
                   fluid={true}
                   aspectRatio="16:9"
                   src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4"
-                  />
+                  /> */}
                 </span>
               </ScrollAnimation>
           </div>

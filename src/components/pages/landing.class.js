@@ -27,10 +27,20 @@ export default Watch(class Landing extends Component {
   render() {
     return (
       <div className="commonPageContainer">
-          <div className="curvedHeaderFlow">
+          {/* <div className="curvedHeaderFlow">
             <span></span>
-          </div>
+          </div> */}
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
+            <section id="sectionPartner">
+              <div className="partnerRibbon">
+                  <a><ion-icon name="logo-twitch"></ion-icon></a>
+                  <a><ion-icon name="logo-foursquare"></ion-icon></a>
+                  <a><ion-icon name="logo-github"></ion-icon></a>
+                  <a><ion-icon name="logo-steam"></ion-icon></a>
+                  <a><ion-icon name="logo-vimeo"></ion-icon></a>
+                  <a><ion-icon name="logo-slack"></ion-icon></a>
+                </div>
+            </section>
             <section id="section1">
               <div className="sectionSubContainer">
                 <div className="sectionHeaderHome">
@@ -222,6 +232,7 @@ export default Watch(class Landing extends Component {
             </div>
           </section>
           </ScrollAnimation>
+          <hr/>
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
           <section id="section4">
             <div className="sectionSubContainer">
