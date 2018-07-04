@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import CountUp from 'react-countup';
+import Slider from "react-slick";
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Watch } from 'scrollmonitor-react';
+import steelSeries from '../../assets/media/sseries.svg';
+import exp from '../../assets/media/exp.svg';
 
 export default Watch(class Landing extends Component {
   constructor(props) {
@@ -44,16 +47,6 @@ export default Watch(class Landing extends Component {
               <meta property="og:url" content={`https://render.gg/`} />
           </Helmet>
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
-            <section id="sectionPartner">
-              <div className="partnerRibbon">
-                  <a><ion-icon name="logo-twitch"></ion-icon></a>
-                  <a><ion-icon name="logo-foursquare"></ion-icon></a>
-                  <a><ion-icon name="logo-github"></ion-icon></a>
-                  <a><ion-icon name="logo-steam"></ion-icon></a>
-                  <a><ion-icon name="logo-vimeo"></ion-icon></a>
-                  <a><ion-icon name="logo-slack"></ion-icon></a>
-                </div>
-            </section>
             <section id="section1">
               <div className="sectionSubContainer">
                 <div className="sectionHeaderHome">
@@ -116,9 +109,9 @@ export default Watch(class Landing extends Component {
                   </div>
                   <div className="clientProfile">
                     <div> 
-                      <img src="https://static.wixstatic.com/media/646904_e13c307bf9ad4c6697b9ecd3f91afb0a~mv2.jpg/v1/fill/w_188,h_196,al_c,q_80,usm_0.66_1.00_0.01/646904_e13c307bf9ad4c6697b9ecd3f91afb0a~mv2.webp"/>
+                      <img src="https://i.imgur.com/MoawZVU.jpg"/>
                       <div>
-                        <h4>Sp4zie</h4>
+                        <h4>Bjergsen</h4>
                       </div>
                       <span className="frontTintP"></span>
                     </div>
@@ -138,9 +131,9 @@ export default Watch(class Landing extends Component {
                   </div>
                   <div className="clientProfile">
                     <div> 
-                      <img src="https://static.wixstatic.com/media/646904_c2ff3b46f69143798ee95f845c7181c2~mv2.png/v1/fill/w_188,h_196,al_c,usm_0.66_1.00_0.01/646904_c2ff3b46f69143798ee95f845c7181c2~mv2.png"/>
+                      <img src="https://i.imgur.com/FriL1Ww.jpg"/>
                       <div>
-                        <h4>Golden Guardians</h4>
+                        <h4>MattHDGamer</h4>
                       </div>
                       <span className="frontTintP"></span>
                     </div>
@@ -160,9 +153,9 @@ export default Watch(class Landing extends Component {
                   </div>
                   <div className="clientProfile">
                     <div> 
-                      <img src="https://static.wixstatic.com/media/646904_27e71784e5ea4a809cad70ed6ce9f103~mv2.png/v1/fill/w_188,h_196,al_c,usm_0.66_1.00_0.01/646904_27e71784e5ea4a809cad70ed6ce9f103~mv2.png"/>
+                      <img src="https://i.imgur.com/Oc2gyNv.jpg"/>
                       <div>
-                        <h4>Unicorns of Love</h4>
+                        <h4>CLG</h4>
                       </div>
                       <span className="frontTintP"></span>
                     </div>
@@ -182,9 +175,9 @@ export default Watch(class Landing extends Component {
                   </div>
                   <div className="clientProfile">
                     <div> 
-                      <img src="https://pbs.twimg.com/profile_images/549001300596097024/oO1xEpPt_400x400.png"/>
+                      <img src="https://i.imgur.com/3LWrI1H.jpg"/>
                       <div>
-                        <h4>Ninja</h4>
+                        <h4>Aphromoo</h4>
                       </div>
                       <span className="frontTintP"></span>
                     </div>
@@ -192,6 +185,94 @@ export default Watch(class Landing extends Component {
                     <div>
                       <h4>Social Reach</h4>
                       <p>10,000,000 +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/QmwRDe3.png"/>
+                      <div>
+                        <h4>UOL</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>2,000,000 +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/PFZJFEr.jpg"/>
+                      <div>
+                        <h4>GGS</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>2,000,000 +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/X9KIGzJ.jpg"/>
+                      <div>
+                        <h4>GoldGloveTV</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>2,000,000 +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/1aYGkX0.jpg"/>
+                      <div>
+                        <h4>Aimbotcalvin</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>2,000,000 +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -244,9 +325,40 @@ export default Watch(class Landing extends Component {
               </div>
             </div>
           </section>
-          </ScrollAnimation>
           <hr/>
-          <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
+          <section id="sectionPartner">
+              <div className="partnersUnderVid">
+              <div className="sectionHeaderHome">
+                <h2>Partners</h2>
+                <h4>We love our partners</h4>
+              </div>
+                <div className="partnerRibbon">
+                  <a className="commonPartnersBlock steelSeriesBlock"><img src={steelSeries}/><span className="partnersOverlay"></span></a>
+                  <a className="commonPartnersBlock wantToBecome">
+                    <h4>Become a partner</h4>
+                    <ion-icon name="rocket"></ion-icon>
+                    {/* <p>Get in touch</p> */}
+                  </a>
+                  {/* <a><ion-icon name="logo-foursquare"></ion-icon></a>
+                  <a><ion-icon name="logo-github"></ion-icon></a>
+                  <a><ion-icon name="logo-steam"></ion-icon></a>
+                  <a><ion-icon name="logo-vimeo"></ion-icon></a>
+                  <a><ion-icon name="logo-slack"></ion-icon></a> */}
+                </div>
+              </div>
+          </section>
+          <hr/>
+          <section>
+            <div className="testimonialsContainer">
+              <div className="sectionHeaderHome">
+                <h2>Testimonials</h2>
+                <h4>See what people are saying about us</h4>
+              </div>
+              <TestiSlider/>
+            </div>
+          </section>
+          </ScrollAnimation>
+          {/* <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
           <section id="section4">
             <div className="sectionSubContainer">
               <div className="sectionHeaderHome">
@@ -265,8 +377,45 @@ export default Watch(class Landing extends Component {
               </div>
             </div>
           </section>
-          </ScrollAnimation>
+          </ScrollAnimation> */}
       </div>
     );
   }
 });
+
+
+class TestiSlider extends Component {
+  render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    return (
+      <Slider {...settings}>
+        <div>
+          <img src={exp}/>
+          <h3>“ If there's one thing I've learnt from my first month in @RenderGG, it's how important it is to look at what you're editing from a viewers point of view, not yours. The outcome of the video will be leaps and bounds better if you do that. ” </h3>
+        </div>
+        <div>
+          <img src={exp}/>
+          <h3>“ If there's one thing I've learnt from my first month in @RenderGG, it's how important it is to look at what you're editing from a viewers point of view, not yours. The outcome of the video will be leaps and bounds better if you do that. ” </h3>
+        </div>
+        <div>
+          <img src={exp}/>
+          <h3>“ If there's one thing I've learnt from my first month in @RenderGG, it's how important it is to look at what you're editing from a viewers point of view, not yours. The outcome of the video will be leaps and bounds better if you do that. ” </h3>
+        </div>
+        <div>
+          <img src={exp}/>
+          <h3>“ If there's one thing I've learnt from my first month in @RenderGG, it's how important it is to look at what you're editing from a viewers point of view, not yours. The outcome of the video will be leaps and bounds better if you do that. ” </h3>
+        </div>
+        <div>
+          <img src={exp}/>
+          <h3>“ If there's one thing I've learnt from my first month in @RenderGG, it's how important it is to look at what you're editing from a viewers point of view, not yours. The outcome of the video will be leaps and bounds better if you do that. ” </h3>
+        </div>
+      </Slider>
+    );
+  }
+}
