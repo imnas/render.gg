@@ -933,7 +933,8 @@ hr {
   margin: unset;
   color: #858788;
   font-weight: 200;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 17px;
 }
 .headerFlexContainer2 .heroTopContainer {
   padding-left: 25px !important;
