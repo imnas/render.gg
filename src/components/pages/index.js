@@ -3,11 +3,13 @@ import Container from '../common/container.class';
 import Container2 from '../common/container2.class';
 import Profile from './profile.class';
 import Careers from './careers/careers.class';
+import Faq from './faq/faq.class';
 
 export {
     Landing,
     Container,
     Container2,
     Profile,
-    Careers
+    Careers,
+    Faq
 };

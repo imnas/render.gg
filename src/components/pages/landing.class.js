@@ -6,25 +6,16 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { Watch } from 'scrollmonitor-react';
 import steelSeries from '../../assets/media/sseries.svg';
 import exp from '../../assets/media/exp.svg';
+import StatsWatch from './watchedStats.class';
 
-export default Watch(class Landing extends Component {
+export default class Landing extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      countup1 : <CountUp redraw={false} start={0} end={62} useEasing={true} />,
-      countup2: <CountUp className="account-balance" start={0} end={9.7} useEasing={true} decimals={1} suffix={"M"} />,
-      countup3: <CountUp start={0} end={15} useEasing={true} />
     };
   }
   componentDidMount() {
 
-  }
-  componentDidUpdate() {
-      if (this.props.isInViewport == false) {
-        this.state.countup1 = <CountUp redraw={false} start={0} end={63} useEasing={true} />;
-        this.state.countup2 = <CountUp className="account-balance" start={0} end={9.8} useEasing={true} decimals={1} suffix={"M"} />;
-        this.state.countup3 = <CountUp start={0} end={16} useEasing={true} />;
-    } 
   }
   render() {
 
@@ -47,31 +38,7 @@ export default Watch(class Landing extends Component {
               <meta property="og:url" content={`https://render.gg/`} />
           </Helmet>
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}>
-            <section id="section1">
-              <div className="sectionSubContainer">
-                <div className="sectionHeaderHome">
-                  <h2>Who are we?</h2>
-                  <h4>We’re <strong>Render</strong>. A premium YouTube video production service for the gaming world</h4>
-                </div>
-                <div className="singleSectionContainer">
-                    <div className="trippleStatsContainer">
-                      <div>
-                        <h2>{this.state.countup1}</h2>
-                        <p>MONTHLY VIDEOS</p>
-                      </div>
-                      <div>
-                        <h2>{this.state.countup2}</h2>
-                        <p>MONTHLY VIEWS</p>
-                      </div>
-                      <div>
-                        <h2>{this.state.countup3}</h2>
-                        <p>TALENTED EDITORS</p>
-                      </div>
-                    </div>
-
-                </div>
-              </div>
-            </section>
+            <StatsWatch/>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeIn" offset={0} animateOnce={true}> 
           <hr/>
@@ -381,7 +348,7 @@ export default Watch(class Landing extends Component {
       </div>
     );
   }
-});
+};
 
 
 class TestiSlider extends Component {

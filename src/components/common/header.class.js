@@ -37,7 +37,7 @@ class Header extends Component {
                       <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
                       <NavLink className="navLink" to="/profile/jay" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
                       <NavLink className="navLink" to="/careers" exact><ion-icon name="code-working"></ion-icon> Careers</NavLink>
-                      <NavLink  to="/" exact className="quoteBtn"><ion-icon name="pricetag"></ion-icon> Quote</NavLink>
+                      <NavLink  to="/faq" exact><ion-icon name="help-circle-outline"></ion-icon> FAQ</NavLink>
                   </div>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="zoomIn" offset={0} delay={0} animateOnce={true} initiallyVisible={true}>

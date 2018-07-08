@@ -67,15 +67,15 @@ export default class Landing extends Component {
                         <p>I had the idea to create Render to ensure clients get the absolute best video content and editors get a fair infrastructure to learn and develop. During my career I have gained an invaluable experience of the digital media and esports industries. I also have strong skills in a variety of digital media programs and applications which allows me to teach and guide my employees. Furthermore, I have skills in marketing, brand management, graphic design and business, which I have developed during my time working within the creative industry.</p>
                     </div>
                     <div className="vidCont">
-                        <Player id="Player"
-                        // PlaysInLine
+                        {/* <Player id="Player"
                         muted
                         autoPlay
                         loop
-                        // fluid={true}
-                        // aspectRatio="16:9"
                         src={"https://video.wixstatic.com/video/646904_e3f6ef16744046259bf0f6dcef61c8af/1080p/mp4/file.mp4"}
-                        />
+                        /> */}
+                        <video autoplay="autoplay" loop="loop">
+                            <source src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4" type="video/mp4"/>
+                        </video>
                         <span class="frontTintP2"></span>
                     </div>
                 </div>

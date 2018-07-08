@@ -69,6 +69,7 @@
     background-image: url(https://i.imgur.com/eVJthTd.png);
     background-size: cover;
     /* background-position-x: 365px; */
+    margin-bottom:200px;
 }
 .headerFlexContainer2 {
   display: flex;
@@ -102,7 +103,7 @@
   margin:0 auto;
 }
 .showReelContainer {
-  width: calc(100% - 100px);
+  width: calc(100% - 25px);
   background: #ffff;
   border-radius: 2px;
   -ms-flex: 1 1;
@@ -438,8 +439,12 @@
 .navLink {
   transition: color 0.3s ease-in-out;
 }
-
-.navLink:hover {
+.vidCont video {
+  width: calc(100% + 225px);
+  position: absolute;
+  left: -205px;
+}
+.navLink:hover, .navLeft a.active {
   color: #f36925;
   transition: color 0.3s ease-in-out;
 }
@@ -783,6 +788,7 @@ hr {
   margin: 0 auto;
   right: 0;
   left: 0;
+  width:100% !important;
 }
 .stickyNav .heroTopContainer {
   padding:unset !important;
@@ -936,7 +942,7 @@ hr {
   font-size: 14px;
   line-height: 17px;
 }
-.headerFlexContainer2 .heroTopContainer {
+.headerFlexContainer2 {
   padding-left: 25px !important;
   padding-right: 25px !important;
 }
@@ -1063,9 +1069,9 @@ hr {
   /* margin-top: 120px; */
   width: 100%;
 }
-#section1 {
+/* #section1 {
   margin-top:250px;
-}
+} */
 .partnersUnderVid h4 {
   margin-bottom:50px;
   /* margin: unset;
@@ -1080,7 +1086,7 @@ hr {
 .partnerRibbon {
   display: -ms-flexbox;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
   grid-gap: 25px;
   margin-top: 20px;
   -ms-flex-pack: justify;
