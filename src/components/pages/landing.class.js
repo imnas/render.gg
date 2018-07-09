@@ -63,7 +63,7 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
+                      <p>3.5M +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -85,7 +85,7 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>5,000,000 +</p>
+                      <p>4M +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -107,29 +107,7 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>500,000 +</p>
-                    </div>
-                    <ion-icon name="contacts"></ion-icon>
-                  </div>
-                  <div className="clientSocials">
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-                  </div>
-                  </div>
-                  <div className="clientProfile">
-                    <div> 
-                      <img src="https://i.imgur.com/Oc2gyNv.jpg"/>
-                      <div>
-                        <h4>CLG</h4>
-                      </div>
-                      <span className="frontTintP"></span>
-                    </div>
-                  <div className="clientStats">
-                    <div>
-                      <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
+                      <p>3.9M +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -151,51 +129,7 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>10,000,000 +</p>
-                    </div>
-                    <ion-icon name="contacts"></ion-icon>
-                  </div>
-                  <div className="clientSocials">
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-                  </div>
-                  </div>
-                  <div className="clientProfile">
-                    <div> 
-                      <img src="https://i.imgur.com/QmwRDe3.png"/>
-                      <div>
-                        <h4>UOL</h4>
-                      </div>
-                      <span className="frontTintP"></span>
-                    </div>
-                  <div className="clientStats">
-                    <div>
-                      <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
-                    </div>
-                    <ion-icon name="contacts"></ion-icon>
-                  </div>
-                  <div className="clientSocials">
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
-                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-                  </div>
-                  </div>
-                  <div className="clientProfile">
-                    <div> 
-                      <img src="https://i.imgur.com/PFZJFEr.jpg"/>
-                      <div>
-                        <h4>GGS</h4>
-                      </div>
-                      <span className="frontTintP"></span>
-                    </div>
-                  <div className="clientStats">
-                    <div>
-                      <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
+                      <p>1.3M +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -217,7 +151,7 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
+                      <p>3.6M +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>
@@ -239,7 +173,95 @@ export default class Landing extends Component {
                   <div className="clientStats">
                     <div>
                       <h4>Social Reach</h4>
-                      <p>2,000,000 +</p>
+                      <p>650K +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/Oc2gyNv.jpg"/>
+                      <div>
+                        <h4>CLG</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>474K +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/QmwRDe3.png"/>
+                      <div>
+                        <h4>UOL</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>170K +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://i.imgur.com/PFZJFEr.jpg"/>
+                      <div>
+                        <h4>GGS</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>23K +</p>
+                    </div>
+                    <ion-icon name="contacts"></ion-icon>
+                  </div>
+                  <div className="clientSocials">
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a className="footer-icon" href="/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                  </div>
+                  </div>
+                  <div className="clientProfile">
+                    <div> 
+                      <img src="https://pre00.deviantart.net/0f3d/th/pre/i/2017/283/7/c/logo_design_for_pandamonium_esports_team_by_iamag-dbpnyc2.png"/>
+                      <div>
+                        <h4>WGS</h4>
+                      </div>
+                      <span className="frontTintP"></span>
+                    </div>
+                  <div className="clientStats">
+                    <div>
+                      <h4>Social Reach</h4>
+                      <p>20K +</p>
                     </div>
                     <ion-icon name="contacts"></ion-icon>
                   </div>

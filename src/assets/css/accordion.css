@@ -183,7 +183,7 @@
 }
 .accordion__title[aria-selected="true"] ion-icon {
     transform: rotate(90deg);
-    color:orange;
+    color:#f36925;
 }
 
 

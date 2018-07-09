@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import { Player } from 'video-react';
-import videop from '../../assets/media/profvid.mp4';
 
 export default class Landing extends Component {
   constructor(props) {

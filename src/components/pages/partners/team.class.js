@@ -34,48 +34,52 @@ export default class Careers extends Component {
         <div className="careersPage">
             <section>
                 <div className="sectionHeaderHome">
-                    <h2>Current Vacancies</h2>
+                    <h2>Our Team</h2>
                     <h4>Render is always looking for <strong>talented</strong> people to join our growing team</h4>
                 </div>
-                <div className="careersBlockContainer">
+                <div className="teamBlockContainer">
                     <div>
-                        <h3>Video Editor</h3>
+                        <img src="https://static.wixstatic.com/media/646904_ced16fac671548619215cb005a1922f3~mv2.png/v1/crop/x_258,y_80,w_596,h_742/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_ced16fac671548619215cb005a1922f3~mv2.png"/>
+                        <h3>BEN "SECTOR" WATSON</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
-                            <span>Full-time</span>
+                            <span>CEO</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/job/editor">Go to listing</NavLink>
+                            <NavLink to="/job/editor">View Profile</NavLink>
                         </div>
                     </div>
                     <div>
-                        <h3>Graphics Designer</h3>
-                        <p>Ontario, Canada, Canada</p>
+                        <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/>
+                        <h3>OSCAR "VULTAR" GRACIE</h3>
+                        <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
-                            <span>Full-time</span>
+                            <span>Video Editor</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/job/graphics">Go to listing</NavLink>
+                            <NavLink to="/job/editor">View Profile</NavLink>
                         </div>
                     </div>
                     <div>
-                        <h3>Office Lady</h3>
-                        <p>Ontario, Canada, Canada</p>
+                        <img src="https://static.wixstatic.com/media/646904_66cfaaea65dc4a28a71fec9656ed0910~mv2.jpg/v1/crop/x_0,y_0,w_435,h_540/fill/w_231,h_287,al_c,q_80,usm_0.66_1.00_0.01/646904_66cfaaea65dc4a28a71fec9656ed0910~mv2.webp"/>
+                        <h3>FLORIS "FROSTURNE" VAN DER HEIDE</h3>
+                        <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
-                            <span>Full-time</span>
+                            <span>Video Editor</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/job/graphics">Go to listing</NavLink>
+                            <NavLink to="/job/editor">View Profile</NavLink>
                         </div>
                     </div>
                     <div>
-                        <h3>Cook</h3>
-                        <p>Ontario, Canada, Canada</p>
+                        <img src="https://static.wixstatic.com/media/646904_1d46caba5ff24243a5dcab51c1252274~mv2.png/v1/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_1d46caba5ff24243a5dcab51c1252274~mv2.png"/>
+                        <h3>ZANE "VOIDGIMMICK" TILLEY</h3>
+                        <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
-                            <span>Full-time</span>
+                            <span>Video Editor</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/job/graphics">Go to listing</NavLink>
+                            <NavLink to="/job/editor">View Profile</NavLink>
                         </div>
                     </div>
                 </div>

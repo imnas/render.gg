@@ -222,6 +222,7 @@
 }
 .sectionHeaderHome {
   text-align:center;
+  position:relative;
 }
 .commonPageContainer section {
     display: -ms-flexbox;
@@ -336,7 +337,7 @@
   transition: background 0.5s ease-in-out;
 }
 .navRight {
-    min-width: 349px;
+    min-width: 314px;
     display: flex;
     justify-content: flex-end;
 }
@@ -496,7 +497,7 @@
   margin-right:5px;
 }
 .footerSub > div:last-child {
-  width:349px;
+  width:314px;
   display:flex;
   justify-content: flex-end;
 }
@@ -999,6 +1000,7 @@ hr {
   padding: 25px;
   border-radius: 2px;
 }
+
 .tagsContainer {
   display: flex;
   flex-direction: row;
@@ -1023,6 +1025,39 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 25px;
+}
+.jobApplyPage {
+  padding:unset !important;
+}
+
+.teamBlockContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 25px;
+}
+.teamBlockContainer > div img {
+  width:100%;
+  border-radius:2px;
+}
+.jobApplyPage iframe {
+  height: calc(100vh - 215px);
+}
+.teamBlockContainer > div h3 {
+  margin: unset;
+  font-size: 16px;
+  margin-top: 15px;
+  min-height: 36px;
+  border-left: 4px solid #f36925;
+  padding-left: 25px;
+}
+.teamBlockContainer > div p {
+  font-size: 13px;
+}
+.teamBlockContainer > div {
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 2px;
 }
 
 .sectionHeaderProfile h2 {
@@ -1191,19 +1226,94 @@ hr {
 .testimonialsContainer ul.slick-dots {
   bottom: -50px !important;
 }
+.individualJobD section h4 {
+  margin: unset;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.individualJobD section ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
 
+.individualJobD section ul li {
+  font-size: 14px;
+  font-weight: 200;
+}
+.individualJobD {
+  margin-top: 50px;
+}
+.individualJobD section ul li span {
+  color: #f36925;
+  font-weight: 400;
+}
+.individualJobD section:not(:last-child) {
+  margin-bottom: 50px;
+}
 
+.applyJobContainer a {
+  background: #f26925;
+  height: 35px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.applyJobContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ctaContainerJob a {
+  background: #a5a7a8;
+  height: 35px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ctaContainerJob {
+  margin-top: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.slick-dots li button:before {
+  content: '•' !important;
+}
+.goBack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #f5f5f5;
+  height: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: #383b3e;
+  z-index: 1;
+}
 
 
 

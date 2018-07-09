@@ -17,7 +17,7 @@ class Footer extends Component {
             <div>
                 <div>
                 <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
-                        <NavLink className="navLink" to="/profile/jay" exact><ion-icon name="people"></ion-icon> Partners</NavLink>
+                        <NavLink className="navLink" to="/team" exact><ion-icon name="people"></ion-icon> Team</NavLink>
                         <NavLink className="navLink" to="/careers" exact><ion-icon name="code-working"></ion-icon> Careers</NavLink>
                         <NavLink  to="/faq" exact><ion-icon name="help-circle-outline"></ion-icon> FAQ</NavLink>
                 </div>

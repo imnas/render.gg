@@ -6,9 +6,9 @@ export default Watch(class StatsWatch extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      countup1 : <CountUp redraw={false} start={0} end={62} />,
-      countup2: <CountUp className="account-balance" start={0} end={9.7} decimals={1} suffix={"M"} />,
-      countup3: <CountUp start={0} end={15} />
+      countup1 : <CountUp redraw={false} start={0} end={139} />,
+      countup2: <CountUp className="account-balance" start={0} end={35} decimals={1} suffix={"M"} />,
+      countup3: <CountUp start={0} end={22} />
     };
   }
   componentDidMount() {
@@ -16,9 +16,9 @@ export default Watch(class StatsWatch extends Component {
   }
   componentDidUpdate() {
       if (this.props.isBelowViewport == true) {
-        this.state.countup1 = <CountUp redraw={false} start={0} end={63} useEasing={true} />;
-        this.state.countup2 = <CountUp className="account-balance" start={0} end={9.8} useEasing={true} decimals={1} suffix={"M"} />;
-        this.state.countup3 = <CountUp start={0} end={16} useEasing={true} />;
+        this.state.countup1 = <CountUp redraw={false} start={0} end={140} useEasing={true} />;
+        this.state.countup2 = <CountUp className="account-balance" start={0} end={36} useEasing={true} decimals={1} suffix={"M"} />;
+        this.state.countup3 = <CountUp start={0} end={23} useEasing={true} />;
     } 
   }
   render() {
