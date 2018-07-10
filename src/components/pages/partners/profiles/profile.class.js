@@ -16,7 +16,7 @@ export default class Landing extends Component {
     return (
       <div className="profilePageContainer">
         <Helmet>
-            <title>Render - {pageName}</title>
+            <title>Render - {this.props.name}</title>
             <meta name="description" content={pageDescription} />
             {/* Twitter Card Meta Tags */}
             <meta name="twitter:site" content="@rendergg" />
@@ -46,10 +46,10 @@ export default class Landing extends Component {
                                 <span>{this.props.role}</span>
                             </div>
                             <div className="socialsContainerProfile">
-                                <a className="footer-icon" href={this.props.instagram ? this.props.instagram : null} target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                                <a className="footer-icon" href={this.props.twitter ? this.props.twitter : null} target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                                <a className="footer-icon" href={this.props.twitch ? this.props.twitch : null} target="_blank"><ion-icon name="logo-twitch"></ion-icon></a>
-                                <a className="footer-icon" href={this.props.youtube ? this.props.youtube : null} target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                                {this.props.instagram ? <a className="footer-icon" href={this.props.instagram} target="_blank"><ion-icon name="logo-instagram"></ion-icon></a> : null }
+                                {this.props.twitter ? <a className="footer-icon" href={this.props.twitter} target="_blank"><ion-icon name="logo-twitter"></ion-icon></a> : null }
+                                {this.props.twitch ? <a className="footer-icon" href={this.props.twitch} target="_blank"><ion-icon name="logo-twitch"></ion-icon></a> : null }
+                                {this.props.youtube ? <a className="footer-icon" href={this.props.youtube} target="_blank"><ion-icon name="logo-youtube"></ion-icon></a> : null }
                             </div>
                             <div className="ctaProfile">
                                 <a>View Latest Work</a>
