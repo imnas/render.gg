@@ -59,7 +59,7 @@ export default class Careers extends Component {
                         </div>
                     </div>
                     <div>
-                        <h3>Office Lady</h3>
+                        <h3>Chief Technical Officer (CTO)</h3>
                         <p>Ontario, Canada, Canada</p>
                         <div className="tagsContainer">
                             <span>Full-time</span>
@@ -69,7 +69,7 @@ export default class Careers extends Component {
                         </div>
                     </div>
                     <div>
-                        <h3>Cook</h3>
+                        <h3>Business Development Officer</h3>
                         <p>Ontario, Canada, Canada</p>
                         <div className="tagsContainer">
                             <span>Full-time</span>

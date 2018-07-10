@@ -3,7 +3,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import Landing from './landing';
-import Profile1 from './profiles/profile1';
+import Ben from './profiles/ben';
+import Oscar from './profiles/oscar';
+import Floris from './profiles/floris';
+import Zane from './profiles/zane';
 import Careers from './careers/index';
 import Faq from './faq/faq';
 import Team from './profiles/team';
@@ -16,7 +19,10 @@ export default() => (
 	<BrowserRouter>
 		<Switch>
 			<Route path="/" exact component={Landing}/>
-			<Route path="/profile/jay" exact component={Profile1}/>
+			<Route path="/profile/ben" exact component={Ben}/>
+			<Route path="/profile/oscar" exact component={Oscar}/>
+			<Route path="/profile/floris" exact component={Floris}/>
+			<Route path="/profile/zane" exact component={Zane}/>
 			<Route path="/careers" exact component={Careers}/>
 			<Route path="/faq" exact component={Faq}/>
 			<Route path="/apply" exact component={Apply}/>
