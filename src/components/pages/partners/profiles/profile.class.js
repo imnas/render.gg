@@ -52,7 +52,7 @@ export default class Landing extends Component {
                                 {this.props.youtube ? <a className="footer-icon" href={this.props.youtube} target="_blank"><ion-icon name="logo-youtube"></ion-icon></a> : null }
                             </div>
                             <div className="ctaProfile">
-                                <a>View Latest Work</a>
+                                <a href={this.props.latestWork} target="_blank">View Latest Work</a>
                             </div>
                         </div>
                     </div>
