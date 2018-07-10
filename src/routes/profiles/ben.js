@@ -16,6 +16,7 @@ export default () => (
         twitch={""}
         youtube={""}
         role={"CEO"}
+        latestWork={""}
       />
     </Container2>
 );
