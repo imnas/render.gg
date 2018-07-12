@@ -34,10 +34,6 @@ export default class Landing extends Component {
             <div className="profileSection">
                 <div className="profileActual">
                     <div className="profileTop">
-                        <div className="profileImageContainer">
-                            <img src={this.props.profileImage}/>
-                            <span class="frontTintP2"></span>
-                        </div>
                         <div className="profileInfoContainer">
                             <div>
                                 <h4>{this.props.name}</h4>
@@ -69,10 +65,10 @@ export default class Landing extends Component {
                         loop
                         src={"https://video.wixstatic.com/video/646904_e3f6ef16744046259bf0f6dcef61c8af/1080p/mp4/file.mp4"}
                         /> */}
-                        <video autoplay="autoplay" loop="loop">
-                            <source src="https://video.wixstatic.com/video/646904_c9fc4ec5e29d456baa5731bbe8db2c70/1080p/mp4/file.mp4" type="video/mp4"/>
+                        <video autoPlay="autoplay" loop="loop">
+                            <source src={this.props.video} type="video/mp4"/>
                         </video>
-                        <span class="frontTintP2"></span>
+                        <span className="frontTintP2"></span>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export default class Landing extends Component {
   }
   render() {
 
-    const pageName = "Careers";
+    const pageName = "FAQ";
     const pageDescription = "We are Render, a premium YouTube video production service for the gaming&amp;nbsp;world. ​ We specialize in video editing, motion graphics and channel branding.";
 
     return (

@@ -11,7 +11,7 @@ export default class Careers extends Component {
   }
   render() {
 
-    const pageName = "Careers";
+    const pageName = "Team";
     const pageDescription = "We are Render, a premium YouTube video production service for the gaming&amp;nbsp;world. ​ We specialize in video editing, motion graphics and channel branding.";
 
     return (
@@ -39,29 +39,26 @@ export default class Careers extends Component {
                 </div>
                 <div className="teamBlockContainer">
                     <div>
-                        {/* <img src="https://static.wixstatic.com/media/646904_ced16fac671548619215cb005a1922f3~mv2.png/v1/crop/x_258,y_80,w_596,h_742/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_ced16fac671548619215cb005a1922f3~mv2.png"/> */}
-                        <h3>BEN "SECTOR" WATSON</h3>
+                        <h3>Sector</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
                             <span>CEO</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/profile/ben">View Profile</NavLink>
+                            <NavLink to="/profile/sector">View Profile</NavLink>
                         </div>
                     </div>
                     <div>
-                        {/* <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/> */}
-                        <h3>OSCAR "VULTAR" GRACIE</h3>
+                        <h3>Vultar</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
                             <span>COO</span>
                         </div>
                         <div className="ctaContainerJob">
-                            <NavLink to="/profile/oscar">View Profile</NavLink>
+                            <NavLink to="/profile/vultar">View Profile</NavLink>
                         </div>
                     </div>
                     <div>
-                        {/* <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/> */}
                         <h3>Frosturne</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
@@ -69,6 +66,216 @@ export default class Careers extends Component {
                         </div>
                         <div className="ctaContainerJob">
                             <NavLink to="/profile/frosturne">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Bijon</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/bijon">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Skyvz</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/skyvz">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Kenosaurr</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/kenosaurr">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>StevoTevo</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/stevotevo">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Edir</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/edir">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Jhinxx</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/jhinxx">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Kevin</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/kevin">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Rockit</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/rockit">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Roemme</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/roemme">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Spliffiam</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/spliffiam">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Brian</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/brian">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Baesd</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/baesd">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Dreams</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/dreams">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Echo Motions</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/echo">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Ethan</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/ethan">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Haylox</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/haylox">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>JoshA</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/josha">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Kruzer</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/kruzer">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Levi</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/levi">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Zero Infinity</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/zero">View Profile</NavLink>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Void</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Video Editor</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/profile/void">View Profile</NavLink>
                         </div>
                     </div>
                 </div>

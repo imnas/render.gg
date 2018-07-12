@@ -4,8 +4,21 @@ import { Redirect } from 'react-router';
 
 import Landing from './landing';
 
-import Ben from './profiles/ben';
-import Oscar from './profiles/oscar';
+import Sector from './profiles/sector';
+import Vultar from './profiles/vultar';
+import Frosturne from './profiles/frosturne';
+import Bijon from './profiles/bijon';
+import Skyvz from './profiles/skyvz';
+import Kenosaurr from './profiles/kenosaurr';
+import StevoTevo from './profiles/stevotevo';
+import Edir from './profiles/edir';
+import Kevin from './profiles/kevin';
+import Rockit from './profiles/rockit';
+import Roemme from './profiles/roemme';
+import Spliffiam from './profiles/spliffiam';
+import Dreams from './profiles/dreams';
+import JoshA from './profiles/josha';
+import Zero from './profiles/zero';
 
 import Careers from './careers/index';
 import Faq from './faq/faq';
@@ -19,8 +32,21 @@ export default() => (
 	<BrowserRouter>
 		<Switch>
 			<Route path="/" exact component={Landing}/>
-			<Route path="/profile/ben" exact component={Ben}/>
-			<Route path="/profile/oscar" exact component={Oscar}/>
+			<Route path="/profile/sector" exact component={Sector}/>
+			<Route path="/profile/vultar" exact component={Vultar}/>
+			<Route path="/profile/frosturne" exact component={Frosturne}/>
+			<Route path="/profile/bijon" exact component={Bijon}/>
+			<Route path="/profile/skyvz" exact component={Skyvz}/>
+			<Route path="/profile/kenosaurr" exact component={Kenosaurr}/>
+			<Route path="/profile/stevotevo" exact component={StevoTevo}/>
+			<Route path="/profile/edir" exact component={Edir}/>
+			<Route path="/profile/kevin" exact component={Kevin}/>
+			<Route path="/profile/rockit" exact component={Rockit}/>
+			<Route path="/profile/roemme" exact component={Roemme}/>
+			<Route path="/profile/spliffiam" exact component={Spliffiam}/>
+			<Route path="/profile/dreams" exact component={Dreams}/>
+			<Route path="/profile/josha" exact component={JoshA}/>
+			<Route path="/profile/zero" exact component={Zero}/>
 			<Route path="/careers" exact component={Careers}/>
 			<Route path="/faq" exact component={Faq}/>
 			<Route path="/apply" exact component={Apply}/>
