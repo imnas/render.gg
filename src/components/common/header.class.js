@@ -12,13 +12,23 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.toggleMobileMenu = this.toggleMobileMenu.bind(this);
+    this.scrollBarHandlerMenu = this.scrollBarHandlerMenu.bind(this);
     this.state = {
-      mobileMenuActive : true
+      mobileMenuActive : false
     };
   }
 
   toggleMobileMenu = () => {
     this.setState({mobileMenuActive: !this.state.mobileMenuActive})
+    this.scrollBarHandlerMenu();
+  }
+
+  scrollBarHandlerMenu = () => {
+    if(this.state.mobileMenuActive == false) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "auto"
+    }
   }
 
   render() {
@@ -35,22 +45,17 @@ class Header extends Component {
       
         <div className="headerFlexContainer"  id="section0">
           <ScrollToTopOnMount/>
-          {/* <span className="glareHeader"></span> */}
           <Sticky stickyClassName={'stickyNav'}>
           <div className="heroTopContainer">
               <nav className="topNav">
-                  <ScrollAnimation animateIn="slideInLeft" offset={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navLeft">
                       <NavLink className="navLink" to="/" exact><ion-icon name="home"></ion-icon> Home</NavLink>
                       <NavLink className="navLink" to="/team" exact><ion-icon name="people"></ion-icon> Team</NavLink>
                       <NavLink className="navLink" to="/careers" exact><ion-icon name="code-working"></ion-icon> Careers</NavLink>
                       <NavLink  to="/faq" exact><ion-icon name="help-circle-outline"></ion-icon> FAQ</NavLink>
                   </div>
-                  </ScrollAnimation>
-                  <ScrollAnimation animateIn="zoomIn" offset={0} delay={0} animateOnce={true} initiallyVisible={true}>
                   <div className="navMid">
                       <NavLink to="/" exact>
-                      {/* <img src={logo}/> */}
                         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.09 46.09">
                           <defs>
                             <style dangerouslySetInnerHTML={{__html: "\n      .cls-1 {\n        fill: #fff;\n      }\n\n      .cls-2 {\n        fill: #f15a24;\n        opacity: 0.41;\n      }\n\n      .cls-3 {\n        fill: #f36925;\n      }\n    " }} />
@@ -67,9 +72,7 @@ class Header extends Component {
                         </svg>
                       </NavLink>
                   </div>
-                  </ScrollAnimation>
-                  <ScrollAnimation animateIn="slideInRight" offset={0} animateOnce={true} initiallyVisible={true}>
-                  <div className="navRight">
+                  <div className="navRight navRightDesktop">
                       <div className="topNavRightSub">
                           <a><ion-icon name="quote"></ion-icon> Slogan of the company.</a>
                       </div>
@@ -77,7 +80,6 @@ class Header extends Component {
                   <div className="navRight mobileNavRight">
                     <MobileMenu toggleMenuPass={this.toggleMobileMenu}/>
                   </div>
-                  </ScrollAnimation>
               </nav>
           </div>
           </Sticky>

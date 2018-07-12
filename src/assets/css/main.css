@@ -47,6 +47,7 @@
     -moz-osx-font-smoothing: grayscale;
     background:#fff;
     color:#858788;
+    overflow:auto;
     }
     .topNav {
       display: flex;
@@ -70,6 +71,8 @@
     background-size: cover;
     /* background-position-x: 365px; */
     margin-bottom:200px;
+    padding-left:25px;
+    padding-right:25px;
 }
 .headerFlexContainer2 {
   display: flex;
@@ -101,6 +104,8 @@
   z-index: 1;
   max-width:1200px;
   margin:0 auto;
+  /* padding-left:25px;
+  padding-right:25px; */
 }
 .showReelContainer {
   width: calc(100% - 25px);
@@ -904,7 +909,7 @@ hr {
   justify-content: flex-end;
 }
 .profileInfoContainer {
-  padding: 25px;
+  padding: 0px;
   width: 100%;
   flex: 1;
   padding-bottom:0px;
@@ -946,6 +951,9 @@ hr {
 .headerFlexContainer2 {
   padding-left: 25px !important;
   padding-right: 25px !important;
+}
+.headerFlexContainer2 .heroTopContainer {
+  padding:unset !important;
 }
 .profileImageContainer {
   position: Relative;
@@ -1047,9 +1055,9 @@ hr {
   margin: unset;
   font-size: 16px;
   margin-top: 15px;
-  min-height: 36px;
-  border-left: 4px solid #f36925;
-  padding-left: 25px;
+  /* min-height: 36px; */
+  /* border-left: 4px solid #f36925;
+  padding-left: 25px; */
 }
 .teamBlockContainer > div p {
   font-size: 13px;
@@ -1380,9 +1388,9 @@ hr {
 
 .closeMenuMobile {
   position: absolute;
-  right: 50px;
-  top: 50px;
-  font-size: 50px;
+  right: 25px;
+  top: 25px;
+  font-size: 40px;
   transition: all 0.2s;
   transform:rotate(0deg);
   display:flex;
