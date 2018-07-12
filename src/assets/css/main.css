@@ -445,7 +445,7 @@
   position: absolute;
   left: -205px;
 }
-.navLink:hover, .navLeft a.active {
+.navLink:hover, .navLeft a.active, .menuFlexMobile .navLink:hover, .menuFlexMobile a.active {
   color: #f36925;
   transition: color 0.3s ease-in-out;
 }
@@ -1314,8 +1314,103 @@ hr {
   color: #383b3e;
   z-index: 1;
 }
+.menuMobileToggleCont {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.menuFlexMobile .navLink:not(:first-child) {
+  margin-top: 25px;
+}
+.topLogoContainerMobileMenu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.menuFlexMobile .navLink ion-icon {
+  margin-right: 25px;
+}
+.menuFlexMobile .navLink {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+    .fullScreenMenuMobile {
+      position: fixed;
+      left:0;
+  }
+
+  .menuFlexMobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.fullScreenMenuMobile .mmMenuLogo {
+    width: 40px;
+}
+
+.fullScreenMenuMobile {
+  width: 100%;
+  height: calc(100vh);
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  overflow: auto;
 
 
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 10000;
+    background: #000019;
+}
+
+.closeMenuMobile {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  font-size: 50px;
+  transition: all 0.2s;
+  transform:rotate(0deg);
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.closeMenuMobile:hover {
+  transition: all 0.2s;
+  transform:rotate(180deg);
+}
+.hideMobileMenu {
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+  z-index:1000;
+}
+.showMobileMenu {
+  opacity: 1;
+  transition: all 0.2s;
+  pointer-events: all;
+  z-index:1000;
+}
+.mobileMenuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
 
 
 

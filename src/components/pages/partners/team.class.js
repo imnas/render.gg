@@ -39,7 +39,7 @@ export default class Careers extends Component {
                 </div>
                 <div className="teamBlockContainer">
                     <div>
-                        <img src="https://static.wixstatic.com/media/646904_ced16fac671548619215cb005a1922f3~mv2.png/v1/crop/x_258,y_80,w_596,h_742/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_ced16fac671548619215cb005a1922f3~mv2.png"/>
+                        {/* <img src="https://static.wixstatic.com/media/646904_ced16fac671548619215cb005a1922f3~mv2.png/v1/crop/x_258,y_80,w_596,h_742/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_ced16fac671548619215cb005a1922f3~mv2.png"/> */}
                         <h3>BEN "SECTOR" WATSON</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
@@ -50,7 +50,7 @@ export default class Careers extends Component {
                         </div>
                     </div>
                     <div>
-                        <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/>
+                        {/* <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/> */}
                         <h3>OSCAR "VULTAR" GRACIE</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
@@ -61,7 +61,7 @@ export default class Careers extends Component {
                         </div>
                     </div>
                     <div>
-                        <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/>
+                        {/* <img src="https://static.wixstatic.com/media/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png/v1/crop/x_0,y_106,w_720,h_894/fill/w_231,h_287,al_c,usm_0.66_1.00_0.01/646904_85d43a33165c4bee929f9f8d880e37de~mv2.png"/> */}
                         <h3>Frosturne</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">

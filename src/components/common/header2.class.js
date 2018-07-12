@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { NavLink } from 'react-router-dom';
 import Sticky from 'react-sticky-el';
+import ScrollToTopOnMount from '../pages/scrollToTop';
 
 class Header extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class Header extends Component {
     return (
       
         <div className="headerFlexContainer2"  id="section0">
+          <ScrollToTopOnMount/>
           {/* <span className="glareHeader"></span> */}
           <Sticky stickyClassName={'stickyNav'}>
           <div className="heroTopContainer">
