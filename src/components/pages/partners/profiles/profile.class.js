@@ -68,7 +68,7 @@ export default class Landing extends Component {
                         {/* <video autoPlay="autoplay" loop="loop">
                             <source src={this.props.video} type="video/mp4"/>
                         </video> */}
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yk5U8mtDpnE?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1​" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe width="100%" height="100%" src={this.props.video} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                         <span className="frontTintP2"></span>
                     </div>
                 </div>

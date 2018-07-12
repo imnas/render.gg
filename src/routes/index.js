@@ -19,6 +19,8 @@ import Spliffiam from './profiles/spliffiam';
 import Dreams from './profiles/dreams';
 import JoshA from './profiles/josha';
 import Zero from './profiles/zero';
+import Echo from './profiles/echo';
+import Brian from './profiles/brian';
 
 import Careers from './careers/index';
 import Faq from './faq/faq';
@@ -47,6 +49,8 @@ export default() => (
 			<Route path="/profile/dreams" exact component={Dreams}/>
 			<Route path="/profile/josha" exact component={JoshA}/>
 			<Route path="/profile/zero" exact component={Zero}/>
+			<Route path="/profile/echo" exact component={Echo}/>
+			<Route path="/profile/brian" exact component={Brian}/>
 			<Route path="/careers" exact component={Careers}/>
 			<Route path="/faq" exact component={Faq}/>
 			<Route path="/apply" exact component={Apply}/>
