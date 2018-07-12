@@ -65,9 +65,10 @@ export default class Landing extends Component {
                         loop
                         src={"https://video.wixstatic.com/video/646904_e3f6ef16744046259bf0f6dcef61c8af/1080p/mp4/file.mp4"}
                         /> */}
-                        <video autoPlay="autoplay" loop="loop">
+                        {/* <video autoPlay="autoplay" loop="loop">
                             <source src={this.props.video} type="video/mp4"/>
-                        </video>
+                        </video> */}
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yk5U8mtDpnE?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1​" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         <span className="frontTintP2"></span>
                     </div>
                 </div>
