@@ -1419,7 +1419,13 @@ hr {
   align-items: center;
   font-size: 35px;
 }
-
+.vidCont iframe {
+  height: 800px;
+  width: calc(100% + 500px);
+  position: absolute;
+  left: -250px;
+  top: -250px;
+}
 
 
 
