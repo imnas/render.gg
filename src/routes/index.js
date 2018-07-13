@@ -21,6 +21,10 @@ import JoshA from './profiles/josha';
 import Zero from './profiles/zero';
 import Echo from './profiles/echo';
 import Brian from './profiles/brian';
+import Haylox from './profiles/haylox';
+import Levi from './profiles/levi';
+import Void from './profiles/void';
+import Ethan from './profiles/ethan';
 
 import Careers from './careers/index';
 import Faq from './faq/faq';
@@ -51,6 +55,10 @@ export default() => (
 			<Route path="/profile/zero" exact component={Zero}/>
 			<Route path="/profile/echo" exact component={Echo}/>
 			<Route path="/profile/brian" exact component={Brian}/>
+			<Route path="/profile/haylox" exact component={Haylox}/>
+			<Route path="/profile/levi" exact component={Levi}/>
+			<Route path="/profile/void" exact component={Void}/>
+			<Route path="/profile/ethan" exact component={Ethan}/>
 			<Route path="/careers" exact component={Careers}/>
 			<Route path="/faq" exact component={Faq}/>
 			<Route path="/apply" exact component={Apply}/>
