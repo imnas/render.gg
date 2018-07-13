@@ -16,7 +16,7 @@ export default () => (
         youtube={""}
         role={"Video Editor"}
         latestWork={"https://youtu.be/eIT7MFI1q5A"}
-        video={"https://youtu.be/eIT7MFI1q5A"}
+        video={"https://www.youtube.com/embed/eIT7MFI1q5A?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1"}
       />
     </Container2>
 );

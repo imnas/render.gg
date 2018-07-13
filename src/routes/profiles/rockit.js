@@ -16,7 +16,7 @@ export default () => (
         youtube={"https://youtube.com/user/rockitcsgo"}
         role={"Video Editor"}
         latestWork={"https://youtu.be/4t4hvK8QvBU"}
-        video={"https://youtu.be/4t4hvK8QvBU"}
+        video={"https://www.youtube.com/embed/4t4hvK8QvBU?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1"}
       />
     </Container2>
 );

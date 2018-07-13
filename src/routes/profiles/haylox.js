@@ -16,7 +16,7 @@ export default () => (
         youtube={"https://youtube.com/c/haylox"}
         role={"Video Editor"}
         latestWork={"https://www.youtube.com/watch?v=aMkuyePP1nc"}
-        video={""}
+        video={"https://www.youtube.com/embed/aMkuyePP1nc?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1"}
       />
     </Container2>
 );

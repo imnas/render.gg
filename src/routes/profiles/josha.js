@@ -16,7 +16,7 @@ export default () => (
         youtube={"https://www.youtube.com/channel/UCwmFXKL10OY5DkjsoIrcRow?view_as=subscriber"}
         role={"Video Editor"}
         latestWork={"https://www.youtube.com/watch?v=MQkoGraiXDc"}
-        video={"https://www.youtube.com/watch?v=MQkoGraiXDc"}
+        video={"https://www.youtube.com/embed/MQkoGraiXDc?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1"}
       />
     </Container2>
 );

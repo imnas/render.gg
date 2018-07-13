@@ -16,7 +16,7 @@ export default () => (
         youtube={"https://www.youtube.com/user/Nidalevi"}
         role={"Video Editor"}
         latestWork={"https://www.youtube.com/watch?v=lZAgeXK6IxA"}
-        video={""}
+        video={"https://www.youtube.com/embed/lZAgeXK6IxA?autoplay=1&mute=1&controls=0&&showinfo=0&loop=1"}
       />
     </Container2>
 );

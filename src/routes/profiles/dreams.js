@@ -16,7 +16,7 @@ export default () => (
         youtube={""}
         role={"Video Editor"}
         latestWork={"https://streamable.com/ezxa6"}
-        video={"https://streamable.com/ezxa6"}
+        video={""}
       />
     </Container2>
 );
