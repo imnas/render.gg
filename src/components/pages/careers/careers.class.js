@@ -58,26 +58,6 @@ export default class Careers extends Component {
                             <NavLink to="/job/graphics">Go to listing</NavLink>
                         </div>
                     </div>
-                    <div>
-                        <h3>Chief Technical Officer (CTO)</h3>
-                        <p>Ontario, Canada, Canada</p>
-                        <div className="tagsContainer">
-                            <span>Full-time</span>
-                        </div>
-                        <div className="ctaContainerJob">
-                            <NavLink to="/job/graphics">Go to listing</NavLink>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Business Development Officer</h3>
-                        <p>Ontario, Canada, Canada</p>
-                        <div className="tagsContainer">
-                            <span>Full-time</span>
-                        </div>
-                        <div className="ctaContainerJob">
-                            <NavLink to="/job/graphics">Go to listing</NavLink>
-                        </div>
-                    </div>
                 </div>
             </section>
         </div>
