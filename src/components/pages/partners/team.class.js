@@ -179,16 +179,6 @@ export default class Careers extends Component {
                         </div>
                     </div>
                     <div>
-                        <h3>Baesd</h3>
-                        <p>London, England, United Kingdom</p>
-                        <div className="tagsContainer">
-                            <span>Video Editor</span>
-                        </div>
-                        <div className="ctaContainerJob">
-                            <NavLink to="/profile/baesd">View Profile</NavLink>
-                        </div>
-                    </div>
-                    <div>
                         <h3>Dreams</h3>
                         <p>London, England, United Kingdom</p>
                         <div className="tagsContainer">
@@ -236,16 +226,6 @@ export default class Careers extends Component {
                         </div>
                         <div className="ctaContainerJob">
                             <NavLink to="/profile/josha">View Profile</NavLink>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Kruzer</h3>
-                        <p>London, England, United Kingdom</p>
-                        <div className="tagsContainer">
-                            <span>Video Editor</span>
-                        </div>
-                        <div className="ctaContainerJob">
-                            <NavLink to="/profile/kruzer">View Profile</NavLink>
                         </div>
                     </div>
                     <div>

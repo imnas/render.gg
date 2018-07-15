@@ -25,6 +25,7 @@ import Haylox from './profiles/haylox';
 import Levi from './profiles/levi';
 import Void from './profiles/void';
 import Ethan from './profiles/ethan';
+import Jhinxx from './profiles/jhinxx';
 
 import Careers from './careers/index';
 import Faq from './faq/faq';
@@ -59,6 +60,7 @@ export default() => (
 			<Route path="/profile/levi" exact component={Levi}/>
 			<Route path="/profile/void" exact component={Void}/>
 			<Route path="/profile/ethan" exact component={Ethan}/>
+			<Route path="/profile/jhinxx" exact component={Jhinxx}/>
 			<Route path="/careers" exact component={Careers}/>
 			<Route path="/faq" exact component={Faq}/>
 			<Route path="/apply" exact component={Apply}/>
