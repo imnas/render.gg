@@ -58,6 +58,16 @@ export default class Careers extends Component {
                             <NavLink to="/job/graphics">Go to listing</NavLink>
                         </div>
                     </div>
+                    <div>
+                        <h3>Content Manager</h3>
+                        <p>London, England, United Kingdom</p>
+                        <div className="tagsContainer">
+                            <span>Full-time</span>
+                        </div>
+                        <div className="ctaContainerJob">
+                            <NavLink to="/job/content">Go to listing</NavLink>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

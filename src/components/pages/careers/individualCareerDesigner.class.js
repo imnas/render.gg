@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 
-export default class IndividualCareer extends Component {
+export default class IndividualCareerDesigner extends Component {
   constructor(props) {
     super(props);
     this.state = {

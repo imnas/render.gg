@@ -2,11 +2,11 @@ import React from 'react';
 
 import {
     Container2,
-    IndividualCareerEditor
+    IndividualCareerManager
   } from '../../components/pages';
 
 export default () => (
     <Container2>
-      <IndividualCareerEditor jobTitle="Video Editor"/>
+      <IndividualCareerManager jobTitle="Content Manager"/>
     </Container2>
 );

@@ -34,6 +34,7 @@ import Apply from './careers/apply';
 
 import Job1 from './careers/job1';
 import Job2 from './careers/job2';
+import Job3 from './careers/job3';
 
 export default() => (
 	<BrowserRouter>
@@ -67,6 +68,7 @@ export default() => (
 			<Route path="/team" exact component={Team}/>
 			<Route path="/job/editor" exact component={Job1}/>
 			<Route path="/job/graphics" exact component={Job2}/>
+			<Route path="/job/content" exact component={Job3}/>
 		</Switch>
 	</BrowserRouter>
 );
