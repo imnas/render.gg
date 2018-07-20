@@ -48,7 +48,7 @@ export default class Careers extends Component {
                             <NavLink to="/job/editor">Go to listing</NavLink>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3>Graphics Designer</h3>
                         <p>Ontario, Canada, Canada</p>
                         <div className="tagsContainer">
@@ -57,7 +57,7 @@ export default class Careers extends Component {
                         <div className="ctaContainerJob">
                             <NavLink to="/job/graphics">Go to listing</NavLink>
                         </div>
-                    </div>
+                    </div> */}
                     <div>
                         <h3>Content Manager</h3>
                         <p>London, England, United Kingdom</p>
